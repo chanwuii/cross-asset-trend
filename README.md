@@ -178,6 +178,10 @@ The 1-month speed is the weakest and by far the most expensive. Dropping it *now
 - **Low-vol bias.** Inverse-vol sizing favours calm assets. UUP and IEF often hit the 30% cap.
 - **One historical path.** Simple t-stats assume roughly independent daily returns. There is no bootstrap yet.
 
+## What I learned
+
+I built this because I don't like losing money. The point was not to beat the market on the way up, but to have a rule that steps aside when a trend breaks, so one crash does not take everything with it. To do that I had to study how stocks, bonds, gold, commodities, and the dollar move in relation to each other, and how those relationships change in different markets.
+
 ## Roadmap
 
 - [ ] Re-scale the ensemble to the 10% vol target after averaging, then re-run the comparison
